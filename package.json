@@ -19,11 +19,13 @@
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "@types/node": "^25.0.3",
+    "@types/nodemailer": "^7.0.4",
     "prettier": "^3.7.4",
     "typescript": "^5.9.3",
     "vitest": "^4.0.16"
   },
   "dependencies": {
-    "@immich/sdk": "^2.4.1"
+    "@immich/sdk": "^2.4.1",
+    "nodemailer": "^7.0.12"
   }
 }
