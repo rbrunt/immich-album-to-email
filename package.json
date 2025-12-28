@@ -1,0 +1,22 @@
+{
+  "name": "immich-to-email",
+  "version": "1.0.0",
+  "description": "A script to send photos from an Immich album to an email address.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@immich/sdk": "^2.4.1"
+  }
+}
