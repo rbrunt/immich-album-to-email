@@ -15,3 +15,11 @@ npm run start
 ```
 
 
+## Creating a token
+
+Create at token in immich, including these scopes:
+
+- `album.read`
+- `album.statistics`
+
+Set the token in the `IMMICH_API_KEY` environment variable.
